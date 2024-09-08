@@ -1,0 +1,26 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal {
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.modal-body form {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+input {
+  outline: none;
+  border-color: rgba(118, 118, 118, 0.2);
+}
+
+input:focus {
+  border-color: rgb(118, 118, 118);
+}
